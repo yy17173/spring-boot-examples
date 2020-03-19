@@ -9,6 +9,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public Mono<String> hello() {
+        System.out.println("1111");
         return Mono.just("Welcome to reactive world ~");
     }
 }
