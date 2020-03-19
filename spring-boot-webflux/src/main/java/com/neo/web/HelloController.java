@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 @RestController
 public class HelloController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello111")
     public Mono<String> hello() {  return Mono.just("Welcome to reactive world ~");
     }
 }
